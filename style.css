@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+/* Estilos específicos para telas menores que 480 pixels */
+body {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.botao-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.botao {
+    display: inline-block;
+   
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+    background-color: #23d100;
+}
+
+
+.header {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    background-color: blue;
+    justify-content: space-between;
+}
+
+#temporizador {
+    font-size: 38px;
+    padding-top: 5px;
+    font-family: 'Roboto';
+}
+
+p {
+    font-size: 12px;
+    margin: 0;
+    /* Removendo a margem padrão para trazer os parágrafos mais para cima */
+}
+
+img {
+    display: inline-block;
+    padding-top: 15px;
+}
+
+.forcedor img {
+    max-width: 100%;
+    height: auto;
+}
+
+.retangulo-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header .oferta {
+    font-size: 50px;
+}
+
+.conteudo {
+    max-width: 800px;
+    margin: 20px auto;
+    margin-top: 10px;
+    /* Adicionando uma margem superior */
+}
+
+@media only screen and (max-width: 480px) {
+
+    /* Estilos específicos para telas menores que 480 pixels */
+    body {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-top: 5px;
+        /* Adicionando uma margem superior */
+    }
+
+    .header {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+        padding: 10px;
+        background-color: blue;
+        justify-content: space-between;
+    }
+
+    #temporizador {
+        font-size: 38px;
+        padding-top: 5px;
+        font-family: 'Roboto';
+    }
+
+    p {
+        font-size: 12px;
+        margin: 0;
+        /* Removendo a margem padrão para trazer os parágrafos mais para cima */
+    }
+
+    img {
+        display: inline-block;
+        padding-top: 15px;
+    }
+
+    .forcedor img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .retangulo-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imgretangulo1 {
+        text-align: center;
+    }
+
+    .retangulo1 {
+        margin-bottom: 10px;
+    }
+
+    .conteudo {
+        font-size: 15px;
+        max-width: 100%;
+        margin: 10px;
+        margin-top: 5px;
+        padding: 15px;
+        border: 3px solid rgb(47, 0, 255);
+        border-radius: 10px;
+        display: flex;
+
+    }
+
+    .conteudo .verificado {
+        display: block;
+        width: 100px;
+        padding: 0;
+    }
+
+    .header .oferta {
+        font-size: 10px;
+        padding: 10px;
+    }
+
+    .botao-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 15vh; /* 100% da altura da tela */
+    }
+    
+    .botao {
+        display: inline-block;
+        padding: 10px 40px;
+        font-size: 20px;
+        text-align: center;
+        text-decoration: none;
+        background-color: #3498db;
+        color: #fff;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+    
+    .botao:hover {
+        background-color: #23d100;
+    }
+    
+}
